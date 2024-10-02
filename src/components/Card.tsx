@@ -6,7 +6,7 @@ interface CardProps {
 	description: string;
 }
 
-const Card: React.FC<CardProps> = ({ problem, description }) => {
+const Card: React.FC<CardProps> = () => {
 	const navigate = useNavigate();
 
 	const { causeSolution } = useCauseSolution();

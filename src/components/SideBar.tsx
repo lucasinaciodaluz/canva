@@ -10,6 +10,14 @@ const Sidebar: React.FC = () => {
 							href="#"
 							className="hover:text-orange-400"
 						>
+							Canva Ops
+						</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							className="hover:text-orange-400"
+						>
 							Guides List
 						</a>
 					</li>

@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/DashboardPage';
 import CreateCodeForm from './components/CreateCodeForm';
 import CauseSolution from './components/CauseSolutionForm';
-import Card from './components/Card';
 
 const AppRoutes = () => {
 	return (
@@ -24,10 +23,6 @@ const AppRoutes = () => {
 				<Route
 					path="/cause-solution"
 					element={<CauseSolution />}
-				/>
-				<Route
-					path="/card"
-					element={<Card />}
 				/>
 			</Routes>
 		</Router>

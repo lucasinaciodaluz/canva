@@ -25,7 +25,7 @@ const CreateCodeForm = () => {
 	return (
 		<div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-75">
 			<div className="bg-white p-6 rounded-lg shadow-lg w-[400px]">
-				<h2 className="text-lg font-medium mb-4">Criar código</h2>
+				<h2 className="text-lg font-medium mb-4">Create new guide</h2>
 				<p className="text-sm mb-2">
 					Dê um nome e inclua uma breve descrição para o problema.
 				</p>

@@ -17,7 +17,7 @@ function Dashboard() {
 	}, []);
 
 	return (
-		<div className="flex h-screen">
+		<div className="flex h-screen bg-gray-100 border-b border-gray-300">
 			<Sidebar />
 			<div className="flex-1 p-8">
 				<Header userName={email} />

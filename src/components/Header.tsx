@@ -11,13 +11,15 @@ const Header: React.FC<HeaderProps> = ({ userName }) => {
 		navigate('/create-code');
 	};
 	return (
-		<header className="flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300">
-			<p className="text-sm">Seja bem-vindo, {userName}</p>
+		<header className="flex justify-between items-center p-4 pl-0 bg-gray-100 border-b border-gray-300">
+			<h1 className="text-xl2 text-left ml-0">
+				Welcome, <span className="font-bold">{userName}</span>
+			</h1>
 			<button
 				onClick={handleClick}
 				className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600"
 			>
-				Criar código
+				Create new guide
 			</button>
 		</header>
 	);

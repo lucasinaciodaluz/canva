@@ -28,21 +28,21 @@ const SearchBar: React.FC = () => {
 					htmlFor="search"
 					className="block text-gray-700 mb-2"
 				>
-					Qual a sua dúvida?
+					What’s your question?
 				</label>
 				<input
 					type="text"
 					id="search"
 					value={search}
 					onChange={handleChange}
-					placeholder="Pesquise por código ou palavra-chave"
+					placeholder="Search by code or keyword"
 					className="w-full p-2 border border-gray-300 rounded"
 				/>
 				<button
 					type="submit"
 					className="mt-2 bg-blue-500 text-white p-2 rounded"
 				>
-					Buscar
+					Search
 				</button>
 			</form>
 

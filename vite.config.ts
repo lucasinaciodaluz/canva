@@ -3,8 +3,18 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    // Outras opções de build podem ser configuradas aqui, como base de URL
-    // base: '/nome-do-repo-se-necessário/',
+  server: {
+    port: 8080,
+    proxy: {
+      '/api': {
+        target: 'https://staging.dev.rapidcanvas.net',
+        secure: false,
+        changeOrigin: true,
+        headers: {
+          'Origin': 'https://staging.dev.rapidcanvas.net',
+          'Referer': 'https://staging.dev.rapidcanvas.net'
+        },
+      },
+    },
   },
 });

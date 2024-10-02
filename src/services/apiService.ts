@@ -6,6 +6,9 @@ const API_DOMAIN = 'https://staging.dev.rapidcanvas.net';
 // Cria uma instância do Axios
 export const apiClient = axios.create({
   baseURL: API_DOMAIN,
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 // Interceptor para adicionar o token de autenticação

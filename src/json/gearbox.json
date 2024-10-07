@@ -1,0 +1,811 @@
+{
+  "tss": {
+    "name": {
+      "__cdata": "Changing the Gearbox"
+    },
+    "explanation": {
+      "__cdata": ""
+    },
+    "note": {
+      "__cdata": ""
+    },
+    "dataflow": {
+      "_dataflowVersion": "24"
+    },
+    "model": {
+      "costfactors": {
+        "costfactor": [
+          {
+            "_weight": "1"
+          },
+          {
+            "_weight": "1"
+          },
+          {
+            "_weight": "1"
+          },
+          {
+            "_weight": "1"
+          },
+          {
+            "_weight": "1"
+          }
+        ],
+        "_size": "5"
+      },
+      "cost_conversions": {
+        "factors": [
+          {
+            "factor": [
+              {
+                "_cost_conversion": "0",
+                "_idx": "0"
+              },
+              {
+                "_cost_conversion": "1",
+                "_idx": "1"
+              },
+              {
+                "_cost_conversion": "2",
+                "_idx": "2"
+              },
+              {
+                "_cost_conversion": "4",
+                "_idx": "3"
+              },
+              {
+                "_cost_conversion": "8",
+                "_idx": "4"
+              }
+            ]
+          },
+          {
+            "factor": [
+              {
+                "_cost_conversion": "0",
+                "_idx": "0"
+              },
+              {
+                "_cost_conversion": "1",
+                "_idx": "1"
+              },
+              {
+                "_cost_conversion": "3",
+                "_idx": "2"
+              },
+              {
+                "_cost_conversion": "10",
+                "_idx": "3"
+              },
+              {
+                "_cost_conversion": "30",
+                "_idx": "4"
+              }
+            ]
+          },
+          {
+            "factor": [
+              {
+                "_cost_conversion": "0",
+                "_idx": "0"
+              },
+              {
+                "_cost_conversion": "1",
+                "_idx": "1"
+              },
+              {
+                "_cost_conversion": "2",
+                "_idx": "2"
+              },
+              {
+                "_cost_conversion": "4",
+                "_idx": "3"
+              },
+              {
+                "_cost_conversion": "8",
+                "_idx": "4"
+              }
+            ]
+          },
+          {
+            "factor": [
+              {
+                "_cost_conversion": "0",
+                "_idx": "0"
+              },
+              {
+                "_cost_conversion": "1",
+                "_idx": "1"
+              },
+              {
+                "_cost_conversion": "2",
+                "_idx": "2"
+              },
+              {
+                "_cost_conversion": "4",
+                "_idx": "3"
+              },
+              {
+                "_cost_conversion": "8",
+                "_idx": "4"
+              }
+            ]
+          }
+        ]
+      },
+      "causes": {
+        "cause": [
+          {
+            "name": {
+              "__cdata": "Other Problem"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "91729d92-2eb7-4941-a327-29fc83c1815c",
+            "_id": "0",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          },
+          {
+            "name": {
+              "__cdata": "[Cause of] Great, you are done"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "2903dd23-0f12-461c-a504-949c7e6ead47",
+            "_id": "1130",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.20000000000000001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          },
+          {
+            "name": {
+              "__cdata": "[Cause of] Install the new gearbox"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "57a86b9d-d5a8-45ea-a183-09acc4203a18",
+            "_id": "1123",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.20000000000000001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          },
+          {
+            "name": {
+              "__cdata": "[Cause of] Make sure to put on gloves"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "3bc040dc-fa40-4659-9515-43bddb29fd34",
+            "_id": "1119",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.20000000000000001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          },
+          {
+            "name": {
+              "__cdata": "[Cause of] Please ensure that you did your work right!"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "c668e193-44f5-422d-afa0-0e444c119050",
+            "_id": "1129",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.20000000000000001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          },
+          {
+            "name": {
+              "__cdata": "[Cause of] Take out the old gearbox"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "customer_name": {
+              "__cdata": ""
+            },
+            "_consumable": "0",
+            "_criticality": "0",
+            "_fix_by_power_cycling_PC": "0",
+            "_fix_by_power_cycling_printer": "0",
+            "_guid": "37047373-de71-4efb-94f0-a59b4ebfe397",
+            "_id": "1121",
+            "_match_level": "0",
+            "_not_customer_use": "0",
+            "_prob": "0.20000000000000001",
+            "_programmatic_data": "0",
+            "_refkeyword": ""
+          }
+        ],
+        "_size": "6"
+      },
+      "steps": {
+        "step": [
+          {
+            "name": {
+              "__cdata": "Great, you are done"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "causes_solved": {
+              "cause_solved": {
+                "_id": "1130",
+                "_prob": "1"
+              },
+              "_size": "1"
+            },
+            "only_after_actions": {
+              "_size": "0"
+            },
+            "mutex_actions": {
+              "_size": "0"
+            },
+            "only_after_questions": {
+              "_size": "0"
+            },
+            "not_after_questions": {
+              "_size": "0"
+            },
+            "fix_questions": {
+              "_size": "0"
+            },
+            "endmessage": {
+              "__cdata": ""
+            },
+            "stepAnswerText": {
+              "__cdata": ""
+            },
+            "custName": {
+              "__cdata": ""
+            },
+            "_and_or": "0",
+            "_cannot_be_deferred": "0",
+            "_cause_prob_threshold": "0",
+            "_cost_enter": "0",
+            "_cost_leave": "0",
+            "_dataflow_type": "4",
+            "_displayID": "0",
+            "_evidenceStep": "0",
+            "_first": "0",
+            "_forceFollowStepId": "-1",
+            "_guid": "5744a29d-3936-45d5-b3f2-40b20115a9af",
+            "_id": "1130",
+            "_irreversible": "0",
+            "_labels": "",
+            "_last_action": "0",
+            "_mandatory": "0",
+            "_match_level": "0",
+            "_move_comp": "0",
+            "_multifault": "0",
+            "_nlinks": "0",
+            "_no_move_back": "0",
+            "_not_customer_use": "0",
+            "_number": "0",
+            "_power_cycles_pc": "0",
+            "_power_cycles_printer": "0",
+            "_prob_given_none": "0",
+            "_prob_requirements_fulfilled": "1",
+            "_programmatic_data": "0",
+            "_refkeyword": "",
+            "_reverse": "0",
+            "_singleAnswerStep": "1",
+            "_supermodel": "0",
+            "_terminal_action": "0",
+            "_type": "0",
+            "_web_author_time_cost_in_seconds": "0",
+            "_web_author_total_cost_in_money": "1",
+            "_workaround": "0"
+          },
+          {
+            "name": {
+              "__cdata": "Install the new gearbox"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "causes_solved": {
+              "cause_solved": {
+                "_id": "1123",
+                "_prob": "1"
+              },
+              "_size": "1"
+            },
+            "only_after_actions": {
+              "_size": "0"
+            },
+            "mutex_actions": {
+              "_size": "0"
+            },
+            "only_after_questions": {
+              "_size": "0"
+            },
+            "not_after_questions": {
+              "_size": "0"
+            },
+            "fix_questions": {
+              "_size": "0"
+            },
+            "endmessage": {
+              "__cdata": ""
+            },
+            "stepAnswerText": {
+              "__cdata": ""
+            },
+            "custName": {
+              "__cdata": ""
+            },
+            "_and_or": "0",
+            "_cannot_be_deferred": "0",
+            "_cause_prob_threshold": "0",
+            "_cost_enter": "0",
+            "_cost_leave": "0",
+            "_dataflow_type": "4",
+            "_displayID": "0",
+            "_evidenceStep": "0",
+            "_first": "0",
+            "_forceFollowStepId": "1127",
+            "_guid": "f0c2cf95-abe0-4ea9-ab99-71396fd1a892",
+            "_id": "1123",
+            "_irreversible": "0",
+            "_labels": "",
+            "_last_action": "0",
+            "_mandatory": "0",
+            "_match_level": "0",
+            "_move_comp": "0",
+            "_multifault": "0",
+            "_nlinks": "0",
+            "_no_move_back": "0",
+            "_not_customer_use": "0",
+            "_number": "0",
+            "_power_cycles_pc": "0",
+            "_power_cycles_printer": "0",
+            "_prob_given_none": "0",
+            "_prob_requirements_fulfilled": "1",
+            "_programmatic_data": "0",
+            "_refkeyword": "",
+            "_reverse": "0",
+            "_singleAnswerStep": "1",
+            "_supermodel": "0",
+            "_terminal_action": "0",
+            "_type": "0",
+            "_web_author_time_cost_in_seconds": "0",
+            "_web_author_total_cost_in_money": "1",
+            "_workaround": "0"
+          },
+          {
+            "name": {
+              "__cdata": "Make sure to put on gloves"
+            },
+            "explanation": {
+              "__cdata": "<div class=\"wa\" data-wa-version=\"1\"><div>The gloves need to be able to handle oil</div>\n</div>"
+            },
+            "causes_solved": {
+              "cause_solved": {
+                "_id": "1119",
+                "_prob": "1"
+              },
+              "_size": "1"
+            },
+            "only_after_actions": {
+              "_size": "0"
+            },
+            "mutex_actions": {
+              "_size": "0"
+            },
+            "only_after_questions": {
+              "_size": "0"
+            },
+            "not_after_questions": {
+              "_size": "0"
+            },
+            "fix_questions": {
+              "_size": "0"
+            },
+            "endmessage": {
+              "__cdata": ""
+            },
+            "stepAnswerText": {
+              "__cdata": ""
+            },
+            "custName": {
+              "__cdata": ""
+            },
+            "_and_or": "0",
+            "_cannot_be_deferred": "0",
+            "_cause_prob_threshold": "0",
+            "_cost_enter": "0",
+            "_cost_leave": "0",
+            "_dataflow_type": "4",
+            "_displayID": "0",
+            "_evidenceStep": "0",
+            "_first": "1",
+            "_forceFollowStepId": "1121",
+            "_guid": "6a0dae78-7ccb-4df3-9230-bae8a4995e04",
+            "_id": "1119",
+            "_irreversible": "0",
+            "_labels": "",
+            "_last_action": "0",
+            "_mandatory": "0",
+            "_match_level": "0",
+            "_move_comp": "0",
+            "_multifault": "0",
+            "_nlinks": "0",
+            "_no_move_back": "0",
+            "_not_customer_use": "0",
+            "_number": "1",
+            "_power_cycles_pc": "0",
+            "_power_cycles_printer": "0",
+            "_prob_given_none": "0",
+            "_prob_requirements_fulfilled": "1",
+            "_programmatic_data": "0",
+            "_refkeyword": "",
+            "_reverse": "0",
+            "_singleAnswerStep": "1",
+            "_supermodel": "0",
+            "_terminal_action": "0",
+            "_type": "0",
+            "_web_author_time_cost_in_seconds": "0",
+            "_web_author_total_cost_in_money": "1",
+            "_workaround": "0"
+          },
+          {
+            "name": {
+              "__cdata": "Please ensure that you did your work right!"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "causes_solved": {
+              "cause_solved": {
+                "_id": "1129",
+                "_prob": "1"
+              },
+              "_size": "1"
+            },
+            "only_after_actions": {
+              "_size": "0"
+            },
+            "mutex_actions": {
+              "_size": "0"
+            },
+            "only_after_questions": {
+              "_size": "0"
+            },
+            "not_after_questions": {
+              "_size": "0"
+            },
+            "fix_questions": {
+              "_size": "0"
+            },
+            "endmessage": {
+              "__cdata": ""
+            },
+            "stepAnswerText": {
+              "__cdata": ""
+            },
+            "custName": {
+              "__cdata": ""
+            },
+            "_and_or": "0",
+            "_cannot_be_deferred": "0",
+            "_cause_prob_threshold": "0",
+            "_cost_enter": "0",
+            "_cost_leave": "0",
+            "_dataflow_type": "4",
+            "_displayID": "0",
+            "_evidenceStep": "0",
+            "_first": "0",
+            "_forceFollowStepId": "1130",
+            "_guid": "a4efda0d-db62-4952-bdc8-22e9441b428a",
+            "_id": "1129",
+            "_irreversible": "0",
+            "_labels": "",
+            "_last_action": "0",
+            "_mandatory": "0",
+            "_match_level": "0",
+            "_move_comp": "0",
+            "_multifault": "0",
+            "_nlinks": "0",
+            "_no_move_back": "0",
+            "_not_customer_use": "0",
+            "_number": "0",
+            "_power_cycles_pc": "0",
+            "_power_cycles_printer": "0",
+            "_prob_given_none": "0",
+            "_prob_requirements_fulfilled": "1",
+            "_programmatic_data": "0",
+            "_refkeyword": "",
+            "_reverse": "0",
+            "_singleAnswerStep": "1",
+            "_supermodel": "0",
+            "_terminal_action": "0",
+            "_type": "0",
+            "_web_author_time_cost_in_seconds": "0",
+            "_web_author_total_cost_in_money": "1",
+            "_workaround": "0"
+          },
+          {
+            "name": {
+              "__cdata": "Take out the old gearbox"
+            },
+            "explanation": {
+              "__cdata": ""
+            },
+            "causes_solved": {
+              "cause_solved": {
+                "_id": "1121",
+                "_prob": "1"
+              },
+              "_size": "1"
+            },
+            "only_after_actions": {
+              "_size": "0"
+            },
+            "mutex_actions": {
+              "_size": "0"
+            },
+            "only_after_questions": {
+              "_size": "0"
+            },
+            "not_after_questions": {
+              "_size": "0"
+            },
+            "fix_questions": {
+              "_size": "0"
+            },
+            "endmessage": {
+              "__cdata": ""
+            },
+            "stepAnswerText": {
+              "__cdata": ""
+            },
+            "custName": {
+              "__cdata": ""
+            },
+            "_and_or": "0",
+            "_cannot_be_deferred": "0",
+            "_cause_prob_threshold": "0",
+            "_cost_enter": "0",
+            "_cost_leave": "0",
+            "_dataflow_type": "4",
+            "_displayID": "0",
+            "_evidenceStep": "0",
+            "_first": "0",
+            "_forceFollowStepId": "1123",
+            "_guid": "4fbf4eaf-06c9-405a-90d5-1e91f1fbdd65",
+            "_id": "1121",
+            "_irreversible": "0",
+            "_labels": "",
+            "_last_action": "0",
+            "_mandatory": "0",
+            "_match_level": "0",
+            "_move_comp": "0",
+            "_multifault": "0",
+            "_nlinks": "0",
+            "_no_move_back": "0",
+            "_not_customer_use": "0",
+            "_number": "0",
+            "_power_cycles_pc": "0",
+            "_power_cycles_printer": "0",
+            "_prob_given_none": "0",
+            "_prob_requirements_fulfilled": "1",
+            "_programmatic_data": "0",
+            "_refkeyword": "",
+            "_reverse": "0",
+            "_singleAnswerStep": "1",
+            "_supermodel": "0",
+            "_terminal_action": "0",
+            "_type": "0",
+            "_web_author_time_cost_in_seconds": "0",
+            "_web_author_total_cost_in_money": "1",
+            "_workaround": "0"
+          }
+        ],
+        "_size": "5"
+      },
+      "questions": {
+        "question": {
+          "name": {
+            "__cdata": "Is the turbine now working"
+          },
+          "state_names": {
+            "state_name": [
+              {
+                "_name": "No"
+              },
+              {
+                "_name": "Yes"
+              }
+            ],
+            "_size": "2"
+          },
+          "answerids": {
+            "answerid": [
+              {
+                "_id": "1131"
+              },
+              {
+                "_id": "1133"
+              }
+            ]
+          },
+          "explanation": {
+            "__cdata": ""
+          },
+          "only_after_questions": {
+            "_size": "0"
+          },
+          "not_after_questions": {
+            "_size": "0"
+          },
+          "fix_questions": {
+            "_size": "0"
+          },
+          "prob_dists": {
+            "prob_dist": {
+              "probs": [
+                {
+                  "_value": "0.5"
+                },
+                {
+                  "_value": "0.5"
+                }
+              ],
+              "_c_id": "0"
+            },
+            "_size": "1"
+          },
+          "prob_given_none": {
+            "prob": [
+              {
+                "_value": "0.5"
+              },
+              {
+                "_value": "0.5"
+              }
+            ]
+          },
+          "custName": {
+            "__cdata": ""
+          },
+          "labels": "",
+          "forcenextsteps": {
+            "forcenextstep": [
+              {
+                "_answer": "0",
+                "_stepid": "1129"
+              },
+              {
+                "_answer": "1",
+                "_stepid": "1130"
+              }
+            ]
+          },
+          "_and_or": "0",
+          "_cannot_be_deferred": "0",
+          "_dataflow_type": "-1",
+          "_displayID": "0",
+          "_end_question": "0",
+          "_evidenceStep": "0",
+          "_first": "0",
+          "_guid": "57f05b1d-3398-4c55-b35f-183b628da557",
+          "_id": "1127",
+          "_irreversible": "0",
+          "_mandatory": "0",
+          "_match_level": "0",
+          "_not_customer_use": "0",
+          "_number": "0",
+          "_prob_requirements_fulfilled": "1",
+          "_programmatic_data": "0",
+          "_refkeyword": "",
+          "_state_names_size": "2",
+          "_type": "2",
+          "_type2": "2",
+          "_web_author_time_cost_in_seconds": "0",
+          "_web_author_total_cost_in_money": "1"
+        },
+        "_size": "1"
+      },
+      "_allquestions": "0",
+      "_cause_prob_threshold": "1",
+      "_costofcallservice": "0",
+      "_m_leav": "0",
+      "_m_switch": "0",
+      "_min_eff": "0",
+      "_minimumprob": "0",
+      "_suggest_actions_threshold": "0",
+      "_use_all_questions_first": "0",
+      "_use_as_classifier": "0",
+      "_willingness": "0.5"
+    },
+    "engine_tags": {
+      "__cdata": ""
+    },
+    "adaptation_set": {
+      "_adaptation_bOptIncludeOutdatedCases": "1",
+      "_adaptation_dOptMLEThreshold": "0.0001",
+      "_adaptation_dOptOutlierDirichlet": "0",
+      "_adaptation_dOptPriorDirichlet": "0",
+      "_adaptation_nOptMaxIterations": "100",
+      "_adaptation_nOptPriorCounts": "1000"
+    },
+    "messages": {
+      "endTextSuccess": {
+        "__cdata": ""
+      },
+      "endTextFailure": {
+        "__cdata": ""
+      },
+      "_endTextAsWeb": "0"
+    },
+    "extraFields": {
+      "fontState": {
+        "_font": "",
+        "_keepSize": "0",
+        "_options": "0",
+        "_size": "0"
+      },
+      "_guid": "cf79d8ee-47bd-4a87-a3fd-0f26234548cb",
+      "_guideid": "46",
+      "_keywords": "",
+      "_modelPicturePath": "",
+      "_modelVersion": "26",
+      "_publishVersion": "0"
+    },
+    "quicklinks": "",
+    "_time": "0",
+    "_version": "50"
+  }
+}

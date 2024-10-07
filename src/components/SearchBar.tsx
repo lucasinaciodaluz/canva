@@ -22,13 +22,17 @@ const SearchBar: React.FC = () => {
 	};
 
 	return (
-		<div className="my-4">
+		<div className="my-[34px]">
+			<span className="font-bold text-2xl leading-7 text-[#5050C4] block mb-6">
+				Guides List
+			</span>
+
 			<form onSubmit={handleSearch}>
 				<label
 					htmlFor="search"
-					className="block text-gray-700 mb-2"
+					className="block font-bold text-black tex-base leading-7 mb-4"
 				>
-					What’s your question?
+					What&#x27;s your question?
 				</label>
 				<input
 					type="text"
@@ -36,14 +40,8 @@ const SearchBar: React.FC = () => {
 					value={search}
 					onChange={handleChange}
 					placeholder="Search by code or keyword"
-					className="w-full p-2 border border-gray-300 rounded"
+					className="w-full px-3 py-[10px] border rounded border-[#767676] focus:outline-none focus:border-[#FF5C00] focus:ring-1 focus:ring-[#FF5C00] mb-6"
 				/>
-				<button
-					type="submit"
-					className="mt-2 bg-blue-500 text-white p-2 rounded"
-				>
-					Search
-				</button>
 			</form>
 
 			{/* Renderização dos resultados da busca */}
@@ -52,11 +50,8 @@ const SearchBar: React.FC = () => {
 					<h3 className="text-gray-700 mb-2">Resultados da busca:</h3>
 					<ul>
 						{results.map((result, index) => (
-							<li key={index}>
-								{result}
-							</li>
+							<li key={index}>{result}</li>
 						))}
-
 					</ul>
 				</div>
 			)}

@@ -8,16 +8,16 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ userName }) => {
 	const navigate = useNavigate();
 	const handleClick = () => {
-		navigate('/create-code');
+		navigate('/create-guide');
 	};
 	return (
-		<header className="flex justify-between items-center p-4 pl-0 bg-gray-100 border-b border-gray-300">
-			<h1 className="text-xl2 text-left ml-0">
+		<header className="flex justify-between items-center pb-[44px] border-b border-[#BBBBBB]">
+			<h1 className="font-normal text-base leading-7 text-[#3E4253]">
 				Welcome, <span className="font-bold">{userName}</span>
 			</h1>
 			<button
 				onClick={handleClick}
-				className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600"
+				className="px-3 py-[10px] border-2 border-[#FF5C00] text-[#FF5C00] font-bold text-base leading-7 rounded-md hover:bg-[#FF5C00] hover:text-white transition-all"
 			>
 				Create new guide
 			</button>

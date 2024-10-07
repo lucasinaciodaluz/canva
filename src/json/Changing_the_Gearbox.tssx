@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tss                                              time="0" version="50">
+
+  <name>
+    <![CDATA[Changing the Gearbox]]>
+  </name>
+
+  <explanation>
+    <![CDATA[]]>
+  </explanation>
+
+  <note>
+    <![CDATA[]]>
+  </note>
+
+  <dataflow dataflowVersion="24"/>
+
+  <model allquestions="0" cause_prob_threshold="1" costofcallservice="0" m_leav="0" m_switch="0" min_eff="0" minimumprob="0" suggest_actions_threshold="0" use_all_questions_first="0" use_as_classifier="0" willingness="0.5">
+    <costfactors size="5">
+      <costfactor weight="1"/>
+      <costfactor weight="1"/>
+      <costfactor weight="1"/>
+      <costfactor weight="1"/>
+      <costfactor weight="1"/>
+    </costfactors>
+    <cost_conversions>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="3" idx="2"/>
+        <factor cost_conversion="10" idx="3"/>
+        <factor cost_conversion="30" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+      <factors>
+        <factor cost_conversion="0" idx="0"/>
+        <factor cost_conversion="1" idx="1"/>
+        <factor cost_conversion="2" idx="2"/>
+        <factor cost_conversion="4" idx="3"/>
+        <factor cost_conversion="8" idx="4"/>
+      </factors>
+    </cost_conversions>
+    <causes size="6">
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="91729d92-2eb7-4941-a327-29fc83c1815c" id="0" match_level="0" not_customer_use="0" prob="0.001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[Other Problem]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="2903dd23-0f12-461c-a504-949c7e6ead47" id="1130" match_level="0" not_customer_use="0" prob="0.20000000000000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[[Cause of] Great, you are done]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="57a86b9d-d5a8-45ea-a183-09acc4203a18" id="1123" match_level="0" not_customer_use="0" prob="0.20000000000000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[[Cause of] Install the new gearbox]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="3bc040dc-fa40-4659-9515-43bddb29fd34" id="1119" match_level="0" not_customer_use="0" prob="0.20000000000000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[[Cause of] Make sure to put on gloves]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="c668e193-44f5-422d-afa0-0e444c119050" id="1129" match_level="0" not_customer_use="0" prob="0.20000000000000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[[Cause of] Please ensure that you did your work right!]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+      <cause consumable="0" criticality="0" fix_by_power_cycling_PC="0" fix_by_power_cycling_printer="0" guid="37047373-de71-4efb-94f0-a59b4ebfe397" id="1121" match_level="0" not_customer_use="0" prob="0.20000000000000001" programmatic_data="0" refkeyword="">
+        <name>
+          <![CDATA[[Cause of] Take out the old gearbox]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <customer_name>
+          <![CDATA[]]>
+        </customer_name>
+      </cause>
+    </causes>
+    <steps size="5">
+      <step and_or="0" cannot_be_deferred="0" cause_prob_threshold="0" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="0" evidenceStep="0" first="0" forceFollowStepId="-1" guid="5744a29d-3936-45d5-b3f2-40b20115a9af" id="1130" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" reverse="0" singleAnswerStep="1" supermodel="0" terminal_action="0" type="0" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1" workaround="0">
+        <name>
+          <![CDATA[Great, you are done]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="1130" prob="1"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="0" cannot_be_deferred="0" cause_prob_threshold="0" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="0" evidenceStep="0" first="0" forceFollowStepId="1127" guid="f0c2cf95-abe0-4ea9-ab99-71396fd1a892" id="1123" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" reverse="0" singleAnswerStep="1" supermodel="0" terminal_action="0" type="0" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1" workaround="0">
+        <name>
+          <![CDATA[Install the new gearbox]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="1123" prob="1"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="0" cannot_be_deferred="0" cause_prob_threshold="0" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="0" evidenceStep="0" first="1" forceFollowStepId="1121" guid="6a0dae78-7ccb-4df3-9230-bae8a4995e04" id="1119" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="1" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" reverse="0" singleAnswerStep="1" supermodel="0" terminal_action="0" type="0" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1" workaround="0">
+        <name>
+          <![CDATA[Make sure to put on gloves]]>
+        </name>
+        <explanation>
+          <![CDATA[<div class="wa" data-wa-version="1"><div>The gloves need to be able to handle oil</div>
+</div>]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="1119" prob="1"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="0" cannot_be_deferred="0" cause_prob_threshold="0" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="0" evidenceStep="0" first="0" forceFollowStepId="1130" guid="a4efda0d-db62-4952-bdc8-22e9441b428a" id="1129" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" reverse="0" singleAnswerStep="1" supermodel="0" terminal_action="0" type="0" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1" workaround="0">
+        <name>
+          <![CDATA[Please ensure that you did your work right!]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="1129" prob="1"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+      <step and_or="0" cannot_be_deferred="0" cause_prob_threshold="0" cost_enter="0" cost_leave="0" dataflow_type="4" displayID="0" evidenceStep="0" first="0" forceFollowStepId="1123" guid="4fbf4eaf-06c9-405a-90d5-1e91f1fbdd65" id="1121" irreversible="0" labels="" last_action="0" mandatory="0" match_level="0" move_comp="0" multifault="0" nlinks="0" no_move_back="0" not_customer_use="0" number="0" power_cycles_pc="0" power_cycles_printer="0" prob_given_none="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" reverse="0" singleAnswerStep="1" supermodel="0" terminal_action="0" type="0" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1" workaround="0">
+        <name>
+          <![CDATA[Take out the old gearbox]]>
+        </name>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <causes_solved size="1">
+          <cause_solved id="1121" prob="1"/>
+        </causes_solved>
+        <only_after_actions size="0"/>
+        <mutex_actions size="0"/>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <endmessage>
+          <![CDATA[]]>
+        </endmessage>
+        <stepAnswerText>
+          <![CDATA[]]>
+        </stepAnswerText>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+      </step>
+    </steps>
+    <questions size="1">
+      <question and_or="0" cannot_be_deferred="0" dataflow_type="-1" displayID="0" end_question="0" evidenceStep="0" first="0" guid="57f05b1d-3398-4c55-b35f-183b628da557" id="1127" irreversible="0" mandatory="0" match_level="0" not_customer_use="0" number="0" prob_requirements_fulfilled="1" programmatic_data="0" refkeyword="" state_names_size="2" type="2" type2="2" web_author_time_cost_in_seconds="0" web_author_total_cost_in_money="1">
+        <name>
+          <![CDATA[Is the turbine now working]]>
+        </name>
+        <state_names size="2">
+          <state_name name="No"/>
+          <state_name name="Yes"/>
+        </state_names>
+        <answerids>
+          <answerid id="1131"/>
+          <answerid id="1133"/>
+        </answerids>
+        <explanation>
+          <![CDATA[]]>
+        </explanation>
+        <only_after_questions size="0"/>
+        <not_after_questions size="0"/>
+        <fix_questions size="0"/>
+        <prob_dists size="1">
+          <prob_dist c_id="0">
+            <probs value="0.5"/>
+            <probs value="0.5"/>
+          </prob_dist>
+        </prob_dists>
+        <prob_given_none>
+          <prob value="0.5"/>
+          <prob value="0.5"/>
+        </prob_given_none>
+        <custName>
+          <![CDATA[]]>
+        </custName>
+        <labels/>
+        <forcenextsteps>
+          <forcenextstep answer="0" stepid="1129"/>
+          <forcenextstep answer="1" stepid="1130"/>
+        </forcenextsteps>
+      </question>
+    </questions>
+  </model>
+
+  <engine_tags>
+    <![CDATA[]]>
+  </engine_tags>
+
+  <adaptation_set adaptation_bOptIncludeOutdatedCases="1" adaptation_dOptMLEThreshold="0.0001" adaptation_dOptOutlierDirichlet="0" adaptation_dOptPriorDirichlet="0" adaptation_nOptMaxIterations="100" adaptation_nOptPriorCounts="1000"/>
+
+  <messages endTextAsWeb="0">
+    <endTextSuccess>
+      <![CDATA[]]>
+    </endTextSuccess>
+    <endTextFailure>
+      <![CDATA[]]>
+    </endTextFailure>
+  </messages>
+
+  <extraFields guid="cf79d8ee-47bd-4a87-a3fd-0f26234548cb" guideid="46" keywords="" modelPicturePath="" modelVersion="26" publishVersion="0">
+    <fontState font="" keepSize="0" options="0" size="0"/>
+  </extraFields>
+
+  <quicklinks/>
+
+</tss>

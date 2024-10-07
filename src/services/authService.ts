@@ -1,18 +1,15 @@
 import axios from 'axios';
 
-const API_URL = '/api/login/authenticate'; // O proxy Vite cuidará do redirecionamento para o servidor real
+const API_URL = '/api/login/authenticate';
 
-// Tipagem da resposta de login
+
 interface LoginResponse {
   token: string;
   userEmail: string;
-  // Adicione outros campos que o backend possa retornar, se necessário
 }
 
-// Função para realizar o login
 export const login = async (email: string, password: string): Promise<LoginResponse> => {
   try {
-    // Como o backend espera um form-data, precisamos usar FormData
     const formData = new FormData();
     formData.append('email', email);
     formData.append('password', password);
@@ -20,7 +17,6 @@ export const login = async (email: string, password: string): Promise<LoginRespo
     const response = await axios.post<LoginResponse>(API_URL, formData, {});
 
     if (response.data.token) {
-      // Armazena o token no localStorage
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('userEmail', response.data.userEmail);
     }
@@ -32,12 +28,17 @@ export const login = async (email: string, password: string): Promise<LoginRespo
   }
 };
 
-// Função para obter o token armazenado
 export const getToken = (): string | null => {
   return localStorage.getItem('token');
 };
 
 export const getEmail = (): string | null => {
-  console.log(localStorage.getItem('userEmail'))
   return localStorage.getItem('userEmail');
+};
+
+export const redirectToLogin = () => {
+  const url = `${
+      window.location.hostname === 'localhost' ? 'https://staging.dev.rapidcanvas.net' : window.location.origin
+  }/auth/sign-in?dataappurl=${window.location.href}`;
+  window.location.href = url;
 };
